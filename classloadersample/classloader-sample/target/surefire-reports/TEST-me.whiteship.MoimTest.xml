@@ -6,7 +6,7 @@
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="MS949"/>
-    <property name="java.class.path" value="C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\test-classes;C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\classes;C:\Users\Jungho\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Jungho\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\test-classes;C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\classes;C:\Users\Jungho\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Jungho\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jungho\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="KR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jungho\AppData\Local\Temp\surefire2222008692067697577\surefirebooter17493085165955352204.jar C:\Users\Jungho\AppData\Local\Temp\surefire2222008692067697577 2021-04-26T14-13-32_832-jvmRun1 surefire16126638123654503971tmp surefire_0437720743552760081tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jungho\AppData\Local\Temp\surefire4656630214765105544\surefirebooter18171953541982283750.jar C:\Users\Jungho\AppData\Local\Temp\surefire4656630214765105544 2021-04-26T14-56-10_580-jvmRun1 surefire5985105870716760667tmp surefire_012426560549107640709tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\test-classes;C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\classes;C:\Users\Jungho\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Jungho\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\test-classes;C:\Users\Jungho\IdeaProjects\whiteship\classloadersample\classloader-sample\target\classes;C:\Users\Jungho\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Jungho\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jungho\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Jungho"/>
     <property name="user.language" value="ko"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jungho\AppData\Local\Temp\surefire2222008692067697577\surefirebooter17493085165955352204.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jungho\AppData\Local\Temp\surefire4656630214765105544\surefirebooter18171953541982283750.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
