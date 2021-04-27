@@ -1,6 +1,6 @@
 # 1. 자바, JVM, JDK 그리고 JRE
 
-![1%20%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1,%20JVM,%20JDK%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%B5%E1%84%80%E1%85%A9%20JRE%20d4c2124a672e4cfea0bc034a8dd4d468/Untitled.png](1%20%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1,%20JVM,%20JDK%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%B5%E1%84%80%E1%85%A9%20JRE%20d4c2124a672e4cfea0bc034a8dd4d468/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/38093478/116171701-3abcd280-a744-11eb-8a3f-ccc1037a9d49.png)
 
 ## 1. **JVM (JAVA Virtual Machine)**
 
