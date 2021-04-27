@@ -1,3 +1,7 @@
+![Uploading _.png…]()
+
+<br/>
+
 # 1. 자바, JVM, JDK 그리고 JRE
 
 ![Untitled](https://user-images.githubusercontent.com/38093478/116171701-3abcd280-a744-11eb-8a3f-ccc1037a9d49.png)
@@ -38,8 +42,7 @@
 - JVM 기반으로 동작하는 프로그래밍 언어
 - 클로저, 그루비, JRuby, Jython, Kotlin, Scala, ...
 
-
-
+<br/><br/><br/><br/>
 
 # 2. JVM 구조
 
@@ -77,8 +80,7 @@
 
 - C, C++로 작성 된 라이브러리!
 
-
-
+<br/><br/><br/><br/>
 
 # 3. 클래스 로더
 
