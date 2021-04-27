@@ -39,6 +39,8 @@
 - 클로저, 그루비, JRuby, Jython, Kotlin, Scala, ...
 
 
+
+
 # 2. JVM 구조
 
 ![Untitled](https://user-images.githubusercontent.com/38093478/116171806-735cac00-a744-11eb-9cd5-7f974a90c6c7.png)
@@ -73,5 +75,5 @@
 
 ## 5. 네이티브 메소드 라이브러리
 
-- C, C++로 작성 된 라이브러리![Uploading Untitled.png…]()
+- C, C++로 작성 된 라이브러리!
 
