@@ -9,14 +9,17 @@ import java.util.Arrays;
  */
 public class App {
     public static void main( String[] args ) {
-
         Arrays.stream(Book.class.getDeclaredFields()).forEach(f -> {
-            int modifiers = f.getModifiers();
-            System.out.println(f);
-            System.out.println(Modifier.isPrivate(modifiers));
-            System.out.println(Modifier.isStatic(modifiers));
-            f.
+            Arrays.stream(f.getAnnotations()).forEach(a -> {
+                if(a instanceof MyAnnotation) {
+                    MyAnnotation myAnnotation = (MyAnnotation) a;
+                    System.out.println(myAnnotation.value);
+                    System.out.println(myAnnotation.number());
+                }
+			});
         });
+
+//        Arrays.stream(MyBook.class.getDeclaredAnnotations()).forEach(System.out::println);
 
         // constructor를 가져오기 위한 stream\
 //        Class<Book> bookClass = Book.class;
@@ -57,3 +60,4 @@ public class App {
 
     }
 }
+
