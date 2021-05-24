@@ -1,5 +1,6 @@
 package me.whiteship;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
@@ -11,15 +12,20 @@ public class App {
     public static void main( String[] args ) {
         Arrays.stream(Book.class.getDeclaredFields()).forEach(f -> {
             Arrays.stream(f.getAnnotations()).forEach(a -> {
-                if(a instanceof MyAnnotation) {
+                if(a instanceof MyAnnotation){
                     MyAnnotation myAnnotation = (MyAnnotation) a;
-                    System.out.println(myAnnotation.value);
+                    System.out.println(myAnnotation.value());
                     System.out.println(myAnnotation.number());
                 }
-			});
+            });
         });
 
-//        Arrays.stream(MyBook.class.getDeclaredAnnotations()).forEach(System.out::println);
+        // Book 클래스의 Fields에 붙어있는 애노테이션을 가져오기 위한 stream
+//        Arrays.stream(Book.class.getDeclaredFields()).forEach(f -> {
+//            Arrays.stream(f.getAnnotations()).forEach(System.out::println);
+//        });
+
+//        Arrays.stream(MyBook.class.getAnnotations()).forEach(System.out::println);
 
         // constructor를 가져오기 위한 stream\
 //        Class<Book> bookClass = Book.class;

@@ -15,7 +15,7 @@ public @interface MyAnnotation {
     // String value() default "jungho";
 
     // default 값을 설정하지 않으면 애노테이션 선언 시 값을 설정해 줘야한다.
-    String name() default "jungho";
+    String value() default "jungho";
 
     int number() default 100;
 

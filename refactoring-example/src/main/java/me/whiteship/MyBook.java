@@ -1,5 +1,5 @@
 package me.whiteship;
 
-@AnotherAnnotation
+@AnotherAnnotation("jungho")
 public class MyBook extends Book implements MyInterface{
 }
